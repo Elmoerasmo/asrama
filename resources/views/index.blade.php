@@ -43,10 +43,8 @@
   <!-- ======= Header ======= -->
  
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->-
-    @include('partials.navbar'); 
-    </div>
-  </header><!-- End Header -->  
+      {{-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> --}}
+    @include('partials.navbar');  
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -243,7 +241,7 @@
 
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Ustadz. Walter White</h4>
                 <span>Chief Executive Officer</span>
@@ -260,7 +258,7 @@
 
           <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Ustadzah. Sarah Jhonson</h4>
                 <span>Product Manager</span>
@@ -277,7 +275,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Ustadz. William Anderson</h4>
                 <span>CTO</span>
@@ -294,7 +292,7 @@
 
           <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Amanda Jepson</h4>
                 <span>Accountant</span>
@@ -381,7 +379,7 @@
           <p>Reserve your spot in our dormitory now!</p>
        </div>
         <div class="row justify-content-center ">
-          <a href="#contact" class="btn-get-started scrollto">Book Now</a>
+          <a href="{{route('book')}}" class="btn-get-started scrollto">Book Now</a>
         </div>
       </div>
     </section><!-- End Book Now Section -->
