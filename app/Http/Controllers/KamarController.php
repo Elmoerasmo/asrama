@@ -15,7 +15,7 @@ class KamarController extends Controller
      */
     public function index()
     {
-        //
+        return view('book.form');
     }
 
     /**
@@ -83,4 +83,5 @@ class KamarController extends Controller
     {
         //
     }
+
 }

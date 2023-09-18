@@ -109,6 +109,7 @@ h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
+  background-color: #37517e ;
   z-index: 997;
   padding: 15px 0;
 }
@@ -205,25 +206,25 @@ h6 {
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  left: 5px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .navbar .dropdown ul li {
-  min-width: 200px;
+  min-width: 20px;
 }
 
 .navbar .dropdown ul a {
-  padding: 10px 20px;
+  padding: 1px 20px;
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
@@ -237,7 +238,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #47b2e4;
+  color: #e40000cc;
 }
 
 .navbar .dropdown:hover>ul {
@@ -1432,6 +1433,7 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  align-items: center;
 }
 
 .contact .info i {
@@ -1845,3 +1847,187 @@ section {
     padding-top: 4px;
   }
 }
+/*--------------------------------------------------------------
+# form
+--------------------------------------------------------------*/
+.form-title {
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 72px;
+}
+.form-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.form-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.form-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.form-title p {
+  margin-bottom: 0;
+}
+/*--------------------------------------------------------------
+# Profile
+--------------------------------------------------------------*/
+
+  #profile {
+    width: 100%;
+    height: 90%;
+    background: #eef5ff;
+  }
+  
+  #profile .container {
+    padding-top: 72px;
+  }
+  
+  #profile h3{
+    text-align: center;
+    /* margin: 0 0 0 0; */
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #37517e;
+  }
+
+  /*--------------------------------------------------------------
+  # Submit Form
+  --------------------------------------------------------------*/
+
+  .form {
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+    align-items: right;
+    margin-top: 72px;
+  }
+  .form .php-email-form {
+    width: 100%;
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .form .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  
+  .form .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  .form .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .form .php-email-form .error-message br+br {
+    margin-top: 25px;
+  }
+  
+  .form .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .form .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .form .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .form .php-email-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form .php-email-form label {
+    padding-bottom: 8px;
+  }
+  
+  .form .php-email-form input,
+  .form .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .form .php-email-form input:focus,
+  .form .php-email-form textarea:focus {
+    border-color: #47b2e4;
+  }
+  
+  .form .php-email-form input {
+    height: 44px;
+  }
+  
+  .form .php-email-form textarea {
+    padding: 10px 12px;
+  }
+  
+  .form .php-email-form button[type=submit] {
+    background: #47b2e4;
+    border: 0;
+    padding: 12px 34px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+  .form .php-email-form button[type=submit]:hover {
+    background: #209dd8;
+  }
+  
