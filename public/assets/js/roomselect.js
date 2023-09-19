@@ -1,4 +1,4 @@
-const container = document.querySelector(".room-container");
+const container = document.querySelector(".room-box");
 const rooms = document.querySelectorAll(".room-row .room:not(.sold)");
 const count = document.getElementById("count");
 const total = document.getElementById("total");

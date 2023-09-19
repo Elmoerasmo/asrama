@@ -9,9 +9,9 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
+  align-items: center;
+  height: 120vh;
   font-family: "Lato", sans-serif;
   margin: 50px;
   border-radius: 10px;
@@ -36,25 +36,54 @@
 .room-container {
   perspective: 1000px;
   margin-bottom: 30px;
+  position: relat;
 }
 
+.room-kotak{
+  width: 150px;
+  height: 150px;
+  background-color: #dfdef0;
+  position: relative;
+  margin-right: 30px;
+  text-align: center;
+  border: 1px solid#000000;
+  border-radius: 10px;  
+
+}
 .room {
-  background-color: #444451;
-  height: 80px;
-  width: 80px;
+  background-color: #909097;
+  height: 50px;
+  width: 50px;
   margin: 20px;
-  font-size: 50px;
-  border-radius: 10px;
-  
+  font-size: 15px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;  
+  position: absolute;
+}
+.room:nth-child(1){
+  top:0;
+  left:0;
+}
+.room:nth-child(2){
+  top:0;
+  right:0;
+}
+.room:nth-child(3){
+  bottom:0;
+  left:0;
+}
+.room:nth-child(4){
+  bottom:0;
+  right:0;
 }
 
 .room.selected {
-  background-color: green;
-  
+  background-color: rgb(19, 156, 219);
 }
 
 .room.sold {
-  background-color: #fff;
+  background-color: #000000;
   
 }
 
@@ -84,6 +113,7 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  margin-top: auto;
 }
 
 .showcase li {
@@ -96,8 +126,14 @@
   margin-left: 2px;
 }
 
+.room-group{
+  width: auto;
+  height: auto;
+  margin: auto;
+}
 .room-row {
   display: flex;
+  margin: 20px;
 }
 
 .screen {
@@ -115,4 +151,22 @@ p.text{
 
 p.text span{
     color: rgb(158, 248, 158);
+}
+.note {
+  background-color: #909097;
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  font-size: 15px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;  
+}
+.note.selected {
+  background-color: rgb(19, 156, 219);
+}
+
+.note.booked {
+  background-color: #000000;
+  
 }
