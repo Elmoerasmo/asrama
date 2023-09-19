@@ -36,7 +36,6 @@
 .room-container {
   perspective: 1000px;
   margin-bottom: 30px;
-  position: relat;
 }
 
 .room-kotak{
@@ -55,9 +54,9 @@
   height: 50px;
   width: 50px;
   margin: 20px;
-  font-size: 15px;
+  font-size: 10px;
   text-align: center;
-  padding: 12px;
+  padding-top: 18px;
   border-radius: 10px;  
   position: absolute;
 }

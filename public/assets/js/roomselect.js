@@ -1,16 +1,14 @@
 const container = document.querySelector(".room-box");
 const rooms = document.querySelectorAll(".room-row .room:not(.sold)");
-const count = document.getElementById("count");
-const total = document.getElementById("total");
-const movieSelect = document.getElementById("movie");
 
-populateUI();
 
-let ticketPrice = +movieSelect.value;
+// populateUI();
+
+// let ticketPrice = +movieSelect.value;
 
 // Save selected movie index and price
 // function setMovieData(movieIndex, moviePrice) {
-  localStorage.setItem("selectedMovieIndex", movieIndex);
+  // localStorage.setItem("selectedMovieIndex", movieIndex);
 //   localStorage.setItem("selectedMoviePrice", moviePrice);
 // }
 
@@ -32,25 +30,25 @@ let ticketPrice = +movieSelect.value;
 
 
 // Get data from localstorage and populate UI
-function populateUI() {
-  const selectedRooms = JSON.parse(localStorage.getItem("selectedRooms"));
+// function populateUI() {
+//   const selectedRooms = JSON.parse(localStorage.getItem("selectedRooms"));
 
-  if (selectedRooms !== null && selectedRooms.length > 0) {
-    rooms.forEach((room, index) => {
-      if (selectedRooms.indexOf(index) > -1) {
-        console.log(room.classList.add("selected"));
-      }
-    });
-  }
+//   if (selectedRooms !== null && selectedRooms.length > 0) {
+//     rooms.forEach((room, index) => {
+//       if (selectedRooms.indexOf(index) > -1) {
+//         console.log(room.classList.add("selected"));
+//       }
+//     });
+//   }
 
-  const selectedMovieIndex = localStorage.getItem("selectedMovieIndex");
+//   const selectedMovieIndex = localStorage.getItem("selectedMovieIndex");
 
-  if (selectedMovieIndex !== null) {
-    movieSelect.selectedIndex = selectedMovieIndex;
-    console.log(selectedMovieIndex)
-  }
-}
-console.log(populateUI())
+//   if (selectedMovieIndex !== null) {
+//     movieSelect.selectedIndex = selectedMovieIndex;
+//     console.log(selectedMovieIndex)
+//   }
+// }
+// console.log(populateUI())
 // Movie select event
 // movieSelect.addEventListener("change", (e) => {
 //   ticketPrice = +e.target.value;
