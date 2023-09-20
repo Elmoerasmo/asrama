@@ -1,7 +1,6 @@
 @extends('partials.navbar')
 
 @section('content')
-
 <div class="container-login100">
     <div class="wrap-login100">
         <form  method="POST" action="{{ route('register') }}" class="login100-form validate-form p-l-55 p-r-55 p-t-178">
