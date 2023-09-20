@@ -23,6 +23,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/book', [App\Http\Controllers\KamarController::class, 'index'])->name('book');
-Route::get('/book/room', [App\Http\Controllers\KamarController::class, 'room'])->name('roomBook');
 
 Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
+
+Route::post('/book/verify', 'KamarController@store')->name('roomBook');

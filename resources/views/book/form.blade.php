@@ -54,122 +54,122 @@
                 <div class="room-group">
                   
                   <div class="room-row">
-                      <div class="room-kotak">
-                        <div class="room">atas</div>
-                        <div class="room">atas</div>
-                        <div class="room sold">bawah</div>
-                        <div class="room sold">bawah</div>
+                      <div class="room">
+                        <div class="bed">atas</div>
+                        <div class="bed">atas</div>
+                        <div class="bed sold">bawah</div>
+                        <div class="bed sold">bawah</div>
                         <p>201</p>
                     </div>
-                    <div class="room-kotak">
-                        <div class="room">atas</div>
-                        <div class="room">atas</div>
-                        <div class="room sold">bawah</div>
-                        <div class="room sold">bawah</div>
+                    <div class="room">
+                        <div class="bed">atas</div>
+                        <div class="bed">atas</div>
+                        <div class="bed sold">bawah</div>
+                        <div class="bed sold">bawah</div>
                         <p>202</p>
                     </div>
-                    <div class="room-kotak">
-                        <div class="room">atas</div>
-                        <div class="room">atas</div>
-                        <div class="room sold">bawah</div>
-                        <div class="room sold">bawah</div>
+                    <div class="room">
+                        <div class="bed">atas</div>
+                        <div class="bed">atas</div>
+                        <div class="bed sold">bawah</div>
+                        <div class="bed sold">bawah</div>
                         <p>203</p>
                     </div>
-                    <div class="room-kotak">
-                        <div class="room">atas</div>
-                        <div class="room">atas</div>
-                        <div class="room sold">bawah</div>
-                        <div class="room sold">bawah</div>
+                    <div class="room">
+                        <div class="bed">atas</div>
+                        <div class="bed">atas</div>
+                        <div class="bed sold">bawah</div>
+                        <div class="bed sold">bawah</div>
                         <p>204</p>
                     </div>
                   </div>
                   <div class="room-row">
-                    <div class="room-kotak">
-                      <div class="room">atas</div>
-                      <div class="room">atas</div>
-                      <div class="room sold">bawah</div>
-                      <div class="room sold">bawah</div>
+                    <div class="room">
+                      <div class="bed">atas</div>
+                      <div class="bed">atas</div>
+                      <div class="bed sold">bawah</div>
+                      <div class="bed sold">bawah</div>
                       <p>101</p>
                     </div>
-                    <div class="room-kotak">
-                      <div class="room">atas</div>
-                      <div class="room">atas</div>
-                      <div class="room sold">bawah</div>
-                      <div class="room sold">bawah</div>
+                    <div class="room">
+                      <div class="bed">atas</div>
+                      <div class="bed">atas</div>
+                      <div class="bed sold">bawah</div>
+                      <div class="bed sold">bawah</div>
                       <p>102</p>
                     </div>
-                    <div class="room-kotak">
-                      <div class="room">atas</div>
-                      <div class="room">atas</div>
-                      <div class="room sold">bawah</div>
-                      <div class="room sold">bawah</div>
+                    <div class="room">
+                      <div class="bed">atas</div>
+                      <div class="bed">atas</div>
+                      <div class="bed sold">bawah</div>
+                      <div class="bed sold">bawah</div>
                       <p>103</p>
                     </div>
-                    <div class="room-kotak">
-                      <div class="room">atas</div>
-                      <div class="room">atas</div>
-                      <div class="room sold">bawah</div>
-                      <div class="room sold">bawah</div>
+                    <div class="room">
+                      <div class="bed">atas</div>
+                      <div class="bed">atas</div>
+                      <div class="bed sold">bawah</div>
+                      <div class="bed sold">bawah</div>
                       <p>104</p>
                     </div>
                   </div>
                   <div class="room-row">
-                    <div class="room-kotak">
-                      <div class="room sold">bawah</div>
-                      <div class="room sold">bawah</div>
-                      <div class="room">atas</div>
-                      <div class="room">atas</div>
+                    <div class="room">
+                      <div class="bed sold">bawah</div>
+                      <div class="bed sold">bawah</div>
+                      <div class="bed">atas</div>
+                      <div class="bed">atas</div>
                       <p>105</p>
                     </div>
-                    <div class="room-kotak">
-                      <div class="room sold">bawah</div>
-                      <div class="room sold">bawah</div>
-                      <div class="room">atas</div>
-                      <div class="room">atas</div>
+                    <div class="room">
+                      <div class="bed sold">bawah</div>
+                      <div class="bed sold">bawah</div>
+                      <div class="bed">atas</div>
+                      <div class="bed">atas</div>
                       <p>106</p>
                     </div>
-                    <div class="room-kotak">
-                      <div class="room sold">bawah</div>
-                      <div class="room sold">bawah</div>
-                      <div class="room">atas</div>
-                      <div class="room">atas</div>
+                    <div class="room">
+                      <div class="bed sold">bawah</div>
+                      <div class="bed sold">bawah</div>
+                      <div class="bed">atas</div>
+                      <div class="bed">atas</div>
                       <p>107</p>
                     </div>
-                    <div class="room-kotak">
-                      <div class="room sold">bawah</div>
-                      <div class="room sold">bawah</div>
-                      <div class="room">atas</div>
-                      <div class="room">atas</div>
+                    <div class="room">
+                      <div class="bed sold">bawah</div>
+                      <div class="bed sold">bawah</div>
+                      <div class="bed">atas</div>
+                      <div class="bed">atas</div>
                       <p>108</p>
                     </div>
                   </div>
                   <div class="room-row">
-                      <div class="room-kotak">
-                        <div class="room sold">bawah</div>
-                        <div class="room sold">bawah</div>
-                        <div class="room">atas</div>
-                        <div class="room">atas</div>
+                      <div class="room">
+                        <div class="bed sold">bawah</div>
+                        <div class="bed sold">bawah</div>
+                        <div class="bed">atas</div>
+                        <div class="bed">atas</div>
                         <p>205</p>
                     </div>
-                    <div class="room-kotak">
-                        <div class="room sold">bawah</div>
-                        <div class="room sold">bawah</div>
-                        <div class="room">atas</div>
-                        <div class="room">atas</div>
+                    <div class="room">
+                        <div class="bed sold">bawah</div>
+                        <div class="bed sold">bawah</div>
+                        <div class="bed">atas</div>
+                        <div class="bed">atas</div>
                         <p>206</p>
                     </div>
-                    <div class="room-kotak">
-                       <div class="room sold">bawah</div>
-                        <div class="room sold">bawah</div>
-                        <div class="room">atas</div>
-                        <div class="room">atas</div>
+                    <div class="room">
+                       <div class="bed sold">bawah</div>
+                        <div class="bed sold">bawah</div>
+                        <div class="bed">atas</div>
+                        <div class="bed">atas</div>
                         <p>207</p>
                     </div>
-                    <div class="room-kotak">
-                        <div class="room">bawah</div>
-                        <div class="room sold">bawah</div>
-                        <div class="room">atas</div>
-                        <div class="room">atas</div>
+                    <div class="room">
+                        <div class="bed">bawah</div>
+                        <div class="bed sold">bawah</div>
+                        <div class="bed">atas</div>
+                        <div class="bed">atas</div>
                         <p>208</p>
                     </div>
                   </div>

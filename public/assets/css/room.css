@@ -38,7 +38,7 @@
   margin-bottom: 30px;
 }
 
-.room-kotak{
+.room{
   width: 150px;
   height: 150px;
   background-color: #dfdef0;
@@ -49,7 +49,7 @@
   border-radius: 10px;  
 
 }
-.room {
+.bed {
   background-color: #909097;
   height: 50px;
   width: 50px;
@@ -60,46 +60,46 @@
   border-radius: 10px;  
   position: absolute;
 }
-.room:nth-child(1){
+.bed:nth-child(1){
   top:0;
   left:0;
 }
-.room:nth-child(2){
+.bed:nth-child(2){
   top:0;
   right:0;
 }
-.room:nth-child(3){
+.bed:nth-child(3){
   bottom:0;
   left:0;
 }
-.room:nth-child(4){
+.bed:nth-child(4){
   bottom:0;
   right:0;
 }
 
-.room.selected {
+.bed.selected {
   background-color: rgb(19, 156, 219);
 }
 
-.room.sold {
+.bed.sold {
   background-color: #000000;
   
 }
 
-.room:nth-of-type(2) {
+.bed:nth-of-type(2) {
   margin-right: 18px;
 }
 
-.room:nth-last-of-type(2) {
+.bed:nth-last-of-type(2) {
   margin-left: 18px;
 }
 
-.room:not(.sold):hover {
+.bed:not(.sold):hover {
   cursor: pointer;
   transform: scale(1.2);
 }
 
-.showcase .room:not(.sold):hover {
+.showcase .bed:not(.sold):hover {
   cursor: default;
   transform: scale(1);
 }
@@ -125,7 +125,7 @@
   margin-left: 2px;
 }
 
-.room-group{
+.bed-group{
   width: auto;
   height: auto;
   margin: auto;
