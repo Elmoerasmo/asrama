@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\KamarController;
+use App\Http\Controllers\BedController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,5 @@ Route::get('/book', [App\Http\Controllers\KamarController::class, 'index'])->nam
 Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
 
 Route::post('/book/verify', 'KamarController@store')->name('roomBook');
+
+Route::post('/beds', [App\Http\Controllers\BedController::class, 'store'])->name('beds.store');

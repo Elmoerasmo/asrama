@@ -81,7 +81,7 @@
   background-color: rgb(19, 156, 219);
 }
 
-.bed.sold {
+.bed.booked {
   background-color: #000000;
   
 }
@@ -94,12 +94,12 @@
   margin-left: 18px;
 }
 
-.bed:not(.sold):hover {
+.bed:not(.booked):hover {
   cursor: pointer;
   transform: scale(1.2);
 }
 
-.showcase .bed:not(.sold):hover {
+.showcase .bed:not(.booked):hover {
   cursor: default;
   transform: scale(1);
 }
