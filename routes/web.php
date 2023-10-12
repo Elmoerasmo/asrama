@@ -23,7 +23,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/book', [App\Http\Controllers\KamarController::class, 'index'])->name('book');
+Route::get('/book', [App\Http\Controllers\BedController::class, 'index'])->name('book');
 
 Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
 

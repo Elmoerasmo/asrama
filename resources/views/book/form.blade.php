@@ -18,18 +18,6 @@
             {{-- <form action="{{route('beds.store')}}" id="form"  class="php-email-form">
               </form> --}}
               <div class="php-email-form">
-                  {{-- <div class="form-group">
-                    <label for="name" class="col-md-6">Nama Lengkap</label>
-                    <input type="text" name="name" class="form-control" id="name" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="alamat" class="col-md-6">Alamat</label>
-                    <input type="text" name="name" class="form-control" id="alamat" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="name">No. Telepon</label>
-                    <input type="text" class="form-control" name="phone" id="phone" required>
-                  </div> --}}
                 <label align-text="center">Pilih Kamar</label>
               
               <div class="room-box  ">
@@ -177,13 +165,14 @@
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
-                <div class="text-center"><button type="submit" id="submitBtn">Send Message</button></div>
                   
                   <form id="bedForm" method="POST" action="{{ route('beds.store') }}">
                     @csrf
                     <input type="hidden" name="selected_beds[]" value="">
+                    <div class="text-center"><button type="submit" id="submitBtn">Send Message</button></div>
                     
                   </form>
+
                 </div>
           </div>
         </div>

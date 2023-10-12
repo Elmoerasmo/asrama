@@ -1,27 +1,8 @@
-// const container = document.querySelector(".room-box");
-// const rooms = document.querySelectorAll(".room-row .bed:not(.booked)");
-
-// // bed click event
-// container.addEventListener("click", (e) => {
-//   if (
-//     e.target.classList.contains("bed") &&
-//     !e.target.classList.contains("booked")
-//   ) {
-//     e.target.classList.toggle("selected");
-
-//     updateSelectedCount();
-//   }
-// });
-
-// Initial count and total set
-// updateSelectedCount();
-
-
-
 const container = document.querySelector(".room-box");
 const beds = container.querySelectorAll(".room-row .bed:not(.booked)");
 const submitBtn = document.getElementById("submitBtn");
 const bedForm = document.getElementById("bedForm");
+
 
 // Function to update the selected count
 function updateSelectedCount() {
@@ -43,7 +24,8 @@ submitBtn.addEventListener("click", () => {
   const selectedBeds = container.querySelectorAll(".bed.selected:not(.booked)");
 
   // Extract bed data
-  const bedData = Array.from(selectedBeds).map((bed) => bed.textContent);
+  const bedData = Array.from(selectedBeds).map((bed) => parseInt(bed.getAttribute('data-bed-id')));
+    
 
   // Update the hidden input fields with the selected bed data
   const hiddenInputs = bedForm.querySelectorAll('input[name="selected_beds[]"]');
@@ -53,7 +35,9 @@ submitBtn.addEventListener("click", () => {
     }
   }); 
 
-  
+  selectedBeds.forEach((bed) => {
+    bed.classList.add("booked");
+  });
 
   // Submit the form
   bedForm.submit();
